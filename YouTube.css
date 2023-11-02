@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: #000;
+    height: 700px;
+    width: 370px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: auto;
+    color: #e9e7e7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.nav{
+display: flex;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav h2{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.icons{
+    margin-left: 98px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: inline-flex;
+    cursor: pointer;
+}
+.icons i{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+#logo2{
+    border-radius: 10px;
+    margin-left: 23px;
+}
+/*==================================================================================*/
+.nav2{
+    display: flex;
+    margin-top: 16px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav2 ul{
+    list-style: none;
+    display: flex;
+}
+.nav2 ul li{
+    margin-left: 14px;
+    margin-right: 19px;
+}
+.nav2 ul li a{
+    text-decoration: none;
+    color: #e9e7e7;
+}
+#nav2{
+
+}
+/*=======================================================================================*/
+.vid1{
+    background: rgb(49, 48, 48);
+    margin-top: 16px;
+    height: 202px;
+    cursor: pointer;
+}
+#vids1{
+    margin-top: 3px;
+}
+.under1 h3{
+    margin-top: -26px;
+    margin-left: 46px;
+    cursor: pointer;
+}
+.under1 p{
+    margin-left: 46px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+#vid1-logo{
+    display: inline-flex;
+    margin-top: 12px;
+    margin-left: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/*=================================================================================================*/
+.vid2{
+    background: rgb(49, 48, 48);
+    margin-top: 16px;
+    height: 202px;
+    cursor: pointer;
+}
+#vids2{
+    margin-top: 4px;
+}
+.vid3{
+    background: rgb(49, 48, 48);
+    margin-top: 16px;
+    height: 202px;
+    cursor: pointer;
+}
+#vids3{
+    margin-top: 4px;
+}
+/*==========================================================================================*/
+.menu{
+    position: absolute;
+    background: #000;
+    margin-top: 32px;
+    height: 675px;
+    width: 353px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: auto;
+    color: #e9e7e7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: none;
+    transition: height 0.6s ease-in;
+}
+
+#icon1{
+    font-size: 26px;
+    margin-top: 4px;
+    margin-left: 4px;
+    display: block;
+    cursor: pointer;
+}
+.acc{
+    margin-top: 20px;
+    margin-left: 17px;
+    display: inline-flex;
+}
+.acc h3{
+    margin-left: 10px;
+}
+.acc img{
+    border-radius: 50%;
+}
+#menuP{
+    margin-left: 52px;
+    color: rgb(77, 177, 253);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.menu1{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.menu1 i{
+    font-size: 14px;
+    margin-right: 20px
+}
+.menu1 p{
+    font-size: 14px;
+}
+
+.menu2{
+    display: flex;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.menu2 i{
+    font-size: 14px;
+    margin-right: 20px
+}
+.menu2 p{
+    font-size: 14px;
+}
+
+.menu3{
+    display: flex;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.menu3 i{
+    font-size: 14px;
+    margin-right: 20px;
+    color: rgb(215, 21, 21);
+}
+.menu3 p{
+    font-size: 14px;
+}
+
+.menu4{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.menu4 i{
+    font-size: 14px;
+    margin-right: 20px;
+    color: rgb(215, 21, 21);
+}
+.menu4 p{
+    font-size: 14px;
+}
+
+#bot{
+    text-align: center;
+    margin-top: 60px;
+    color: grey;
+}
+/*=====================================================================================*/
+.search{
+    position: absolute;
+    background: #000;
+    margin-top: 32px;
+    height: 675px;
+    width: 353px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: auto;
+    color: #e9e7e7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: none;
+}
+
+.search input{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 260px;
+    height: 24.5px;
+    background-color: rgb(30, 30, 30);
+    color: #ffff;
+    border: none;
+    padding-left: 10px;
+    padding-right: 16px;
+    border-radius: 40px;
+}
